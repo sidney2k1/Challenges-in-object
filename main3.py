@@ -12,7 +12,7 @@ class fruitquiz:
             else:
                 print("Wrong answer")
             option=int(input("If u want to play again enter 0 else enter 1:"))
-            if option:
+            if option():
                 break
 print("welcome to fruit quiz:")
 fq=fruitquiz()
